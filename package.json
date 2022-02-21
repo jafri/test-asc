@@ -1,0 +1,19 @@
+{
+  "name": "refetch-interval",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@assemblyscript/loader": "^0.19.22",
+    "@jafri/as-chain": "0.0.1",
+    "as-bignum": "^0.2.18"
+  },
+  "devDependencies": {
+    "assemblyscript": "^0.19.22",
+    "typescript": "4.5.5",
+    "eosio-transform": "^0.0.13"
+  },
+  "scripts": {
+    "start": "npm exec eosio-asc ./src/contract.ts"
+  }
+}
